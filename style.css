@@ -6,6 +6,10 @@
     #company-address, #workhours {
         display: none;
     }
+
+    .carousel-message button {
+        top: 70%;
+    }
 }
 
 @media only screen and (min-width: 480px) {
@@ -27,6 +31,10 @@
     #company-address, #workhours {
         display: inline-block;
     }
+    
+    .carousel-message button {
+        top: 80%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -36,6 +44,10 @@
     }
     #workhours {
         display: none;
+    }
+    
+    .carousel-message button {
+        top: 90%;
     }
 }
 
@@ -92,6 +104,10 @@
         right: -2px;
         border-bottom: 4px solid #37C989;
         border-right: 4px solid #37C989;
+    }
+
+    .carousel-message button {
+        top: 100%;
     }
 }
 
@@ -234,11 +250,12 @@
     text-transform: uppercase;
     background-color: #37C989;
     width: 300px;
+    max-width: 100%;
     padding: 10px;
     border: none;
     font-size: 1vw;
     position: absolute;
-    top: 100%;
+    /* top: 100%; */
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
