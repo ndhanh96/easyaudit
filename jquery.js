@@ -2,7 +2,6 @@ $(document).ready(function () {
     $(".owl-carousel").owlCarousel( {
         dots: false,
         nav: false,
-        autoHeight:false,
         responsive:{
             0:{
                 items:1
